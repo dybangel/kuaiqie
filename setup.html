@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>勤道快切助手配置说明 - 超好用的网页制作&amp;专题制作助手 - 必备前端工具 - 快切网页制作助手</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="快切,网页切图工具,快切助手,快切网,快速制作网页,网页专题制作,网页切图软件,快速切图软件,网页设计助手,快速网页制作工具,网页制作助手,网页快速制作,在线切片专题制作工具,网站专题制作"/>
+<meta name="description" content="在线切图/网页制作工具，快速导出切片，html代码，css样式。响应式支持，一站打通电脑，平板，手机。"/>
+<link rel="shortcut icon" href="resources/images/favicon.ico"/>
+<link rel="dns-prefetch" href="www.qdsay.com" />
+<link rel="dns-prefetch" href="hm.baidu.com">
+<link rel="stylesheet" href="resources/css/main.css"/>
+<link rel="stylesheet" href="resources/css/view.css"/>
+</head>
+<body>
+<header>
+<div id="headbar">
+  <div id="logo">
+    <a title="勤道快切助手" href="http://kuaiqie.qdsay.com"><img alt="kuaiqie.qdsay.com" src="resources/images/logo.png"></a>
+  </div>
+  <ul id="navbar">
+    <li class="on"><a id="guide" class="view" title="说明文档" href="example/jd/help.html" target="viewFrame">配置说明</a></li>
+    <li><a id="preview" class="view" title="用例预览" href="example/jd/index.html" target="viewFrame">用例预览</a></li>
+    <li><a id="download" class="view" title="下载用例" href="example/jd.png" download="example/jd.png">下载用例</a></li>
+    <li><a id="back" class="view" title="返回首页" href="http://kuaiqie.qdsay.com/">返回首页</a></li>
+  </ul>
+  <label id="desc">页面框架&amp;专题制作工具</label>
+</div>
+</header>
+<div id="main">
+  <iframe width="100%" height="100%" id="viewFrame" name="viewFrame" src="example/jd/help.html"></iframe>
+</div>
+<script type="text/javascript" src="resources/js/jquery.min.js"></script>
+<script>
+$().ready(function() {
+  $("#viewFrame").height($(document).height() - 49);
+  $(".view").click(function(){
+    $(this).parent().siblings().removeClass("on");
+    $(this).parent().addClass("on")
+  });
+});
+//统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?78ca100d64bdbafed0bd93cbe4702ab4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-33331163-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
